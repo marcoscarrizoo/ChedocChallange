@@ -1,0 +1,42 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    height: 300px;
+    width: 200px;
+    box-shadow: 0 0 10px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/placeholder.png');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    margin: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.home-title {
+    background-color: rgb(51, 50, 50);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+.titles{
+
+    margin-left: 8rem;
+}
+   
