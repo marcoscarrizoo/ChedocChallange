@@ -1,0 +1,21 @@
+.header-container {
+    background-color: rgb(17, 17, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+   font-weight: 800;
+   height: 100px;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin-left: 8rem;
+    gap: 1.25rem;
+  }

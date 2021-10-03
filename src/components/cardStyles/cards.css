@@ -1,0 +1,31 @@
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px 
+    
+    }
+    
+    .card-container {
+    box-shadow: 0 0 10px;
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    margin-top: 80px;
+    }
+
+    .card-container:hover {
+        opacity: 0.5;
+       border: 2px solid white;
+    }
+    
+    .img {
+        width: 100%;
+    }
+    
+    .title {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }

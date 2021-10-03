@@ -1,24 +1,28 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import { Route } from 'react-router';
-import { getMovies, getSeries } from './redux/actions/actions';
-import { useDispatch } from 'react-redux';
 import Home from './components/home/Home';
-const data = require('./data/sample.json') 
-
-console.log('data',data)
+import Movies from './components/movies/Movies';
+import Series from './components/series/Series';
+import NavBar from './components/navbar/NavBar';
+import Footer from './components/footer/Footer';
+import './app.css'
 
 function App() {
-const dispatch = useDispatch()
 
-  useEffect(() => {
-    console.log('holi')
-  dispatch( getMovies())
-  dispatch(getSeries())
-  }, [])
 
   return (
+    
  <React.Fragment>
-   <Route path='/' component={Home}/>
+   <div className='page-container'>
+   <Route path='/' component={NavBar}/>
+   <Route exact path='/' component={Home}/>
+  
+   <Route path='/movies' component={Movies}/>
+   <Route path='/series' component={Series}/>
+   <div className='content-wrap'>
+      <Route path='/' component={Footer}/>
+   </div>
+   </div>
  </React.Fragment>
   );
 }
