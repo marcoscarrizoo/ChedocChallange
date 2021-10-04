@@ -19,10 +19,6 @@ const Home = () => {
           </Link>
         </section>
       </main>
-  
-
-      
-   
     </div>
   );
 };

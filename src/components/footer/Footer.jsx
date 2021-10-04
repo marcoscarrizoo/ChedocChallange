@@ -15,26 +15,26 @@ const Footer = () => {
 
            <div className='social-images'>
                <div className='div-social'>
-                    <img style={{ width:'60px', height:'60px'}} src="http://127.0.0.1:5500/src/assets/social/facebook-white.svg" alt="" />
+                    <img className='images-social' src="https://raw.githubusercontent.com/chedoc/prueba-tecnica-react-developer/b20e16bd684c36711a93702649f478c43f421d64/assets/social/facebook-white.svg" alt="facebook" />
                 </div>
                <div className='div-social'>
-                    <img style={{ width:'60px', height:'60px'}} src="http://127.0.0.1:5500/src/assets/social/twitter-white.svg" alt="" />
+                    <img className='images-social' src="https://raw.githubusercontent.com/chedoc/prueba-tecnica-react-developer/b20e16bd684c36711a93702649f478c43f421d64/assets/social/instagram-white.svg" alt="twitter" />
                </div>
                <div className='div-social'>
-                    <img style={{ width:'60px', height:'60px'}} src="http://127.0.0.1:5500/src/assets/social/instagram-white.svg" alt="" />
+                    <img className='images-social' src="https://raw.githubusercontent.com/chedoc/prueba-tecnica-react-developer/b20e16bd684c36711a93702649f478c43f421d64/assets/social/twitter-white.svg" alt="instagram" />
                </div>
            </div>
 
            <div className='social-images'>
                <div className='div-social'>
-                    <img style={{ width:'200px', height:'60px'}} src="http://127.0.0.1:5500/src/assets/store/app-store.svg" alt="" />
+                    <img className='images-store' src="https://raw.githubusercontent.com/chedoc/prueba-tecnica-react-developer/b20e16bd684c36711a93702649f478c43f421d64/assets/store/app-store.svg" alt="app store" />
                </div>
                <div className='div-social'>
-                    <img style={{ width:'200px', height:'60px'}} src="http://127.0.0.1:5500/src/assets/store/play-store.svg" alt="" />
+                    <img className='images-store' src="https://raw.githubusercontent.com/chedoc/prueba-tecnica-react-developer/b20e16bd684c36711a93702649f478c43f421d64/assets/store/play-store.svg" alt="play store" />
                 </div>
 
                 <div className='div-social'>
-                    <img style={{ width:'200px', height:'60px'}} src="http://127.0.0.1:5500/src/assets/store/windows-store.svg" alt="" />
+                    <img className='images-store' src="https://raw.githubusercontent.com/chedoc/prueba-tecnica-react-developer/b20e16bd684c36711a93702649f478c43f421d64/assets/store/windows-store.svg" alt="windows store" />
                 </div>
            </div>
            </div>
