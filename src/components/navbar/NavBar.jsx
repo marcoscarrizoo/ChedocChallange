@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div>
       <header className="header-container">
-        <Link className='link' to="/">
+        <Link className="link" to="/">
           <div className="logo">Chedoc Movies</div>
         </Link>
       </header>
